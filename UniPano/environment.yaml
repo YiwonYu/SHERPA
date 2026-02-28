@@ -1,0 +1,33 @@
+name: unipano
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - tqdm
+    - scikit-image
+    - matplotlib
+    - einops
+    - diffusers==0.24.0
+    - transformers==4.26.1
+    - huggingface_hub==0.22.2
+    - lightning[pytorch-extra]==2.2.2
+    - torch==2.0.1
+    - opencv-python
+    - protobuf
+    - wrapt
+    - numpy
+    - google
+    - googleapis-common-protos
+    - kornia
+    - torchmetrics[image]
+    - xformers
+    - salesforce-lavis
+    - omegaconf
+    - wandb
+    - safetensors
+    - accelerate
+    - shapely
+    - lpips
+    - timm
